@@ -28,9 +28,9 @@ if (stage.level === "Easy") {
     console.log("Congragulation! you guessed a Right Number");
   } else if (digit.userGuessednumber > 3) {
     console.log("Please Enter number between 1-3");
-  }else {
+  } else {
     console.log("Ooh! you guessed a Wrong Number");
-  } 
+  }
 } else if (stage.level === "Medium") {
   const digit = await inquirer.prompt([
     {
@@ -45,7 +45,7 @@ if (stage.level === "Easy") {
     console.log("Congragulation! you guessed a Right Number");
   } else if (digit.userGuessednumber > 6) {
     console.log("Please Enter number between 1-6");
-  }else {
+  } else {
     console.log("Ooh! you guessed a Wrong Number");
   }
 } else if (stage.level === "Hard") {
@@ -62,7 +62,7 @@ if (stage.level === "Easy") {
     console.log("Congragulation! you guessed a Right Number");
   } else if (digit.userGuessednumber > 10) {
     console.log("Please Enter number between 1-10");
-  } else  {
+  } else {
     console.log("Ooh! you guessed a Wrong Number");
   }
 }
